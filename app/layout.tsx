@@ -2,7 +2,7 @@ import type { Metadata } from "next"
 import { Josefin_Sans } from "next/font/google"
 import "./globals.css"
 
-const libreFranklin = Josefin_Sans({
+const josefinSans = Josefin_Sans({
   subsets: ["latin"],
   weight: ["300", "400", "600"],
 })
@@ -28,7 +28,7 @@ export default function RootLayout({
         />
       </head>
       <body
-        className={`${libreFranklin.className} text-neutral-very-dark-blue flex min-h-screen flex-col items-center justify-center `}
+        className={`${josefinSans.className} flex min-h-screen flex-col items-center justify-center bg-gradient-body text-primary-dark`}
       >
         {children}
       </body>

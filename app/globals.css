@@ -4,6 +4,6 @@
 
 @layer utilities {
   .footer-link {
-    @apply text-neutral-very-dark-blue cursor-pointer underline;
+    @apply cursor-pointer underline;
   }
 }
