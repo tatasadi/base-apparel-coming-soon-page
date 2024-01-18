@@ -3,8 +3,10 @@ import { Josefin_Sans } from "next/font/google"
 import "./globals.css"
 
 const josefinSans = Josefin_Sans({
-  subsets: ["latin"],
   weight: ["300", "400", "600"],
+  style: ["normal", "italic"],
+  subsets: ["latin"],
+  display: "swap",
 })
 
 export const metadata: Metadata = {
