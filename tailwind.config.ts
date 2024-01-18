@@ -10,17 +10,21 @@ const config: Config = {
     extend: {
       colors: {
         primary: {
-          dark: 'hsl(0, 7%, 24%)',
-          'desaturated-red': 'hsl(0, 36%, 70%)',
-          'soft-red': 'hsl(0, 93%, 68%)',
+          dark: "hsl(0, 7%, 24%)",
+          "desaturated-red": "hsl(0, 36%, 70%)",
+          "soft-red": "hsl(0, 93%, 68%)",
         },
         neutral: {
-          'dark-grayish-red': 'hsl(0, 6%, 24%)',
+          "dark-grayish-red": "hsl(0, 6%, 24%)",
         },
       },
       backgroundImage: {
-        'gradient-body': 'linear-gradient(135deg, hsl(0, 0%, 100%) 0%, hsl(0, 100%, 98%) 100%)',
-        'gradient-red': 'linear-gradient(135deg, hsl(0, 80%, 86%) 0%, hsl(0, 74%, 74%) 100%)',
+        "gradient-body":
+          "linear-gradient(135deg, hsl(0, 0%, 100%) 0%, hsl(0, 100%, 98%) 100%)",
+        "gradient-red":
+          "linear-gradient(135deg, hsl(0, 80%, 86%) 0%, hsl(0, 74%, 74%) 100%)",
+        "gradient-red-50":
+          "linear-gradient(135deg, hsla(0, 80%, 86%, 0.5) 0%, hsla(0, 74%, 74%, 0.5) 100%)",
       },
     },
   },

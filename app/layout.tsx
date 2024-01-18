@@ -30,7 +30,7 @@ export default function RootLayout({
         />
       </head>
       <body
-        className={`${josefinSans.className} flex min-h-screen flex-col items-center justify-center bg-gradient-body text-primary-dark`}
+        className={`${josefinSans.className} flex min-h-screen flex-col items-center justify-center bg-gradient-body text-primary-dark md:bg-[url('../public/images/bg-pattern-desktop.svg')] md:bg-cover md:bg-no-repeat`}
       >
         {children}
       </body>
